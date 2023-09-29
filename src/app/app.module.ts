@@ -11,6 +11,12 @@ import { CalendarModule } from 'primeng/calendar';
 import { TableModule } from 'primeng/table';
 import { CardModule } from 'primeng/card';
 import { DropdownModule } from 'primeng/dropdown';
+import { AccordionModule } from 'primeng/accordion'; 
+import { MenuModule } from 'primeng/menu';
+import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { StepsModule } from 'primeng/steps';
+import { MenuItem } from 'primeng/api'; 
+import { SidebarModule } from 'primeng/sidebar';
 
 @NgModule({
   declarations: [AppComponent, ReliefComponent],
@@ -23,6 +29,11 @@ import { DropdownModule } from 'primeng/dropdown';
     TableModule,
     CardModule,
     DropdownModule,
+    AccordionModule,
+    MenuModule,
+    BreadcrumbModule,
+    StepsModule,
+    SidebarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
