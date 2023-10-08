@@ -17,9 +17,13 @@ import { BreadcrumbModule } from 'primeng/breadcrumb';
 import { StepsModule } from 'primeng/steps';
 import { MenuItem } from 'primeng/api'; 
 import { SidebarModule } from 'primeng/sidebar';
+import { TimeTableComponent } from './time-table/time-table.component';
+import { TeacherComponent } from './teacher/teacher.component';
+import { LeaveComponent } from './leave/leave.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
-  declarations: [AppComponent, ReliefComponent],
+  declarations: [AppComponent, ReliefComponent, TimeTableComponent, TeacherComponent, LeaveComponent, DashboardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
